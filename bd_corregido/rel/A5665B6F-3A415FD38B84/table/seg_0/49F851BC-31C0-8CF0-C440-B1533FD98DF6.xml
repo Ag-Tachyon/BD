@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49F851BC-31C0-8CF0-C440-B1533FD98DF6" name="realiza">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ejemplar_codigo_ejemplar" id="A9BEEC40-C6A8-A10C-B3EE-F5AC56B6E1DB">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89AB9431-6CA8-7FE3-F013-30A5F2C581F8" referredColumn="A0E300C2-7A7F-1B17-CA8E-D5E21ADFA0C1"/>
+</associations>
+</Column>
+<Column name="prestamo_codigo_prestamo" id="1FA52850-B82D-A0BA-75A9-F138F6BD5D9E">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67E04A5C-7880-5647-0B8B-79722D49DC22" referredColumn="9AE0F8B4-DA88-E173-8286-945DBF8F4E0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E573FD5B-0BC3-6BBD-833B-2143EA72A178" name="realiza_PK">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BEEC40-C6A8-A10C-B3EE-F5AC56B6E1DB"/>
+<colUsage columnID="1FA52850-B82D-A0BA-75A9-F138F6BD5D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9587DF70-49F2-5570-9465-2418E4EE7539" name="realiza_ejemplar_FK">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<generatorID>1736040E-B107-1707-4547-947D52598E28</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BEEC40-C6A8-A10C-B3EE-F5AC56B6E1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F990A9BA-A8F3-9217-1E9D-D7FB1AB1DDF5" name="realiza_prestamo_FK">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:42:55 UTC</createdTime>
+<generatorID>1736040E-B107-1707-4547-947D52598E28</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FA52850-B82D-A0BA-75A9-F138F6BD5D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

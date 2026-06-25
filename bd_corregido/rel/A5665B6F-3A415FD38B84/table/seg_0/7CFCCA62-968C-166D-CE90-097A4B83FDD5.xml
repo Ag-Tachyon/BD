@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CFCCA62-968C-166D-CE90-097A4B83FDD5" name="sucursal">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>D3C27B1C-172A-38F5-C703-F3F5CF3AAD15</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<abbreviation>suc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_sucursal" id="3880BBD3-FD0C-2257-E235-53F03783E91C">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>3BF1FF4E-D4EF-BA3D-3C13-A04D8DE2DDBC</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_sucursal" id="CE2B0A6B-1B85-3BFC-96C8-025C568114C5">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>A7A147B1-251C-FC96-0BA3-A3C808702FA3</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_sucursal" id="A6018BEE-A8AC-93C2-5885-9B9960EF789B">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>5F5A986F-906C-7B18-78B8-291D3D9D43B5</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F49BEAF-0EF3-C781-EB2E-D8F8D534A996" name="sucursal_codigo_sucursal_UN">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>19BB7290-84EC-8E1D-C5FA-CB6AC81EFBC1</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3880BBD3-FD0C-2257-E235-53F03783E91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

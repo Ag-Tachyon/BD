@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F8306E-E21A-A8FA-E54C-EBEEDAF18C50" name="ejemplar">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:20:17 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<engineerTo>
+<item key="A5665B6F-5CB0-97B4-ADEC-3A415FD38B84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ejem</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_ejemplar" id="86E290B0-554F-1FD0-6BC7-31CBA649EB2F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:20:29 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<engineerTo>
+<item key="A5665B6F-5CB0-97B4-ADEC-3A415FD38B84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_ejemplar" id="EE871CFF-7E21-29E5-D671-D9957BC53C02">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:20:47 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<engineerTo>
+<item key="A5665B6F-5CB0-97B4-ADEC-3A415FD38B84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_sucursal" id="7848F1F6-F6DF-6F3C-BAF0-B76BB4CD4512">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:34:04 UTC</createdTime>
+<generatorID>AAB18C93-DBFA-FEF9-E0D4-E92F2299DDF1</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<engineerTo>
+<item key="A5665B6F-5CB0-97B4-ADEC-3A415FD38B84" value="true"/>
+</engineerTo>
+<referedAttribute>3BF1FF4E-D4EF-BA3D-3C13-A04D8DE2DDBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B319711-442F-925A-EA9A-92E5C9A2461E" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:21:17 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5665B6F-5CB0-97B4-ADEC-3A415FD38B84" value="false"/>
+</engineerTo>
+<newElementsIDs>86E290B0-554F-1FD0-6BC7-31CBA649EB2F</newElementsIDs>
+<usedAttributes>
+<attributeRef>86E290B0-554F-1FD0-6BC7-31CBA649EB2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
