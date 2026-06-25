@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45DE9DC9-845B-02B4-7294-D6157CD9F0D6" name="ejemplar">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>F9F8306E-E21A-A8FA-E54C-EBEEDAF18C50</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<abbreviation>ejem</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_ejemplar" id="A0E300C2-7A7F-1B17-CA8E-D5E21ADFA0C1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>86E290B0-554F-1FD0-6BC7-31CBA649EB2F</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_ejemplar" id="BB29B953-24E9-7E8F-5004-7140668D9B39">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>EE871CFF-7E21-29E5-D671-D9957BC53C02</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sucursal_codigo_sucursal" id="6E1CFB75-6EC9-434C-7376-3AB35EC3B92B">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>7848F1F6-F6DF-6F3C-BAF0-B76BB4CD4512</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27B8454C-0630-F024-0B1D-B4605F45EF0C" referredColumn="3880BBD3-FD0C-2257-E235-53F03783E91C"/>
+</associations>
+</Column>
+<Column name="pelicula_peli_ID" id="E9C68186-A06B-43D4-22BE-19393AB6FB4B">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D41B80B-1520-40E8-D263-FA1F5DB1BA27" referredColumn="65AB4B71-9935-0F6A-F282-517C2B491C9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CD9191A-812F-44EB-6BDF-09FAEA9CD923" name="ejemplar_codigo_ejemplar_UN">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>0B319711-442F-925A-EA9A-92E5C9A2461E</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E300C2-7A7F-1B17-CA8E-D5E21ADFA0C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8FA46AF-484E-509C-15C5-E3580787F26B" name="ejemplar_pelicula_FK">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>C186D6FD-C7CE-9128-DE92-3503B7A75764</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C68186-A06B-43D4-22BE-19393AB6FB4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C8FC11C-818B-686F-2C77-BDEA62678019" name="ejemplar_sucursal_FK">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-06-25 14:36:20 UTC</createdTime>
+<generatorID>AAB18C93-DBFA-FEF9-E0D4-E92F2299DDF1</generatorID>
+<ownerDesignName>bd_corregido</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1CFB75-6EC9-434C-7376-3AB35EC3B92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
