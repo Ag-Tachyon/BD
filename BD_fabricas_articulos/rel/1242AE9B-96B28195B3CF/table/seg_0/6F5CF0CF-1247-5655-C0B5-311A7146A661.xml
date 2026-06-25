@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F5CF0CF-1247-5655-C0B5-311A7146A661" name="direcciones">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>63897839-9B34-A959-EE5A-4EA10C247482</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<abbreviation>dir</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_postal" id="9838351E-B592-FC73-5CC3-DA7ED994D089">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>D0A4C388-7DE4-B737-5F8D-32F742AA8FE2</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="548EE11C-8D3B-0CA1-F502-4C2A30B87FA7">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>C2124260-6C09-C238-34DF-57B0F3320FF1</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_inmueble" id="504A0C3F-DF0E-BFCF-7663-FB8A914D547D">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>BE02D53D-C041-D000-F0A2-0DFF60008FAB</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_codigo_cliente" id="770B5C96-7F94-8619-F898-C525A2D077D6">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>C2DA0EDB-94A4-4BD5-0FA3-3BCF67B7FFE8</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A62A5F7-2286-3AA3-0BB5-4F4314ED8056" referredColumn="E2006403-9EF6-7FB2-0B21-31A663811F18"/>
+</associations>
+</Column>
+<Column name="pedido_codigo_pedido" id="73F6783B-2A32-4EDB-09C7-777B820A5D69">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>730BD407-7E98-A4C0-562F-00302E7EFD9F</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DBA9AC4-CF33-D4DE-4592-4AEABE695C46" referredColumn="A26CB5ED-0FE0-81BE-F7C3-51FC9C67D4E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74C8B372-AAA6-E7E8-604B-A12B7C8455C9" name="direcciones_PK">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>B983F038-067B-F799-2DFA-D0100D54BB1C</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9838351E-B592-FC73-5CC3-DA7ED994D089"/>
+<colUsage columnID="770B5C96-7F94-8619-F898-C525A2D077D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C21E2D05-4579-84BE-EBBF-50EAFDF2AA7C" name="direcciones__IDX">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F8F7513D-D662-BB27-D490-06733B083024</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="770B5C96-7F94-8619-F898-C525A2D077D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A670A215-FBE2-E98A-743B-73A5D081654D" name="direcciones_pedido_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>D73B8943-3AF4-5854-36A4-94A483087283</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F6783B-2A32-4EDB-09C7-777B820A5D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47F296BA-E8F6-7E01-89B5-136896C5121B" name="direcciones_cliente_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>F8F7513D-D662-BB27-D490-06733B083024</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="770B5C96-7F94-8619-F898-C525A2D077D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFFAF44D-6565-8E3F-E23D-51E87E1CA05A" name="detaller_pedido">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:31:46 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>det_pedido</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detaller" id="5B860F00-2516-EE34-F373-0A157620F390">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:31:59 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_ordenada" id="39B157AE-1300-695C-4298-CC378C8479B9">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:32:15 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_articulo" id="E0D77837-E336-4119-91E0-FABB5D503C28">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:52:40 UTC</createdTime>
+<generatorID>88C64311-A1D0-7964-FD36-E85E5A83679D</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<referedAttribute>4426E2D1-2390-7B31-153C-A62AFD361043</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_pedido" id="D65472F4-DCCA-1C2A-8EED-B78B908F39A6">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:53:24 UTC</createdTime>
+<generatorID>F53DD841-46D0-8E6D-059F-62D723A0FAF8</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<referedAttribute>2F28D65A-0F20-318B-4EFE-3A9A5D3FFDB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_pendiente_entregar" id="21C880E1-7E89-E955-FF1D-9538113BA5AA">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:54:39 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E26DC2EA-627F-B50C-39C8-6BED6DD0B681" name="Key_1">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:33:42 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5B860F00-2516-EE34-F373-0A157620F390,F53DD841-46D0-8E6D-059F-62D723A0FAF8</newElementsIDs>
+<usedAttributes>
+<attributeRef>5B860F00-2516-EE34-F373-0A157620F390</attributeRef>
+<attributeRef>D65472F4-DCCA-1C2A-8EED-B78B908F39A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

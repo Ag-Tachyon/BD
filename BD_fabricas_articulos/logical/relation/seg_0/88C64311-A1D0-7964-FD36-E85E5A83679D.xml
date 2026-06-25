@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pidev2" directorySegmentName="seg_0" id="88C64311-A1D0-7964-FD36-E85E5A83679D">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:37:50 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<sourcePk>E26DC2EA-627F-B50C-39C8-6BED6DD0B681</sourcePk>
+<targetPk>4025D252-D482-B550-E9C1-847733F030D2</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DFFAF44D-6565-8E3F-E23D-51E87E1CA05A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D5FC4208-9054-C61F-3AFF-BDEC9D33CF15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

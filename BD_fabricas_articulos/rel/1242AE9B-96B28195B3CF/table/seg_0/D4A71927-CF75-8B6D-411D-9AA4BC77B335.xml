@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4A71927-CF75-8B6D-411D-9AA4BC77B335" name="plantas_pro">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>FCE287B2-76A8-D4AF-70AA-F1218AA83820</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<abbreviation>plantas</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_planta" id="609B98A0-A246-1D9C-48F0-AE9FD1865D9C">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>FDC04D9E-ABF4-841D-BF7A-11441B9882B7</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_productos" id="E36C4CB8-10B5-1AAB-D311-51751A3168CC">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>B2DF1198-4A1F-D481-41E4-3C273C95A826</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_de_articulos" id="9FFE628D-FC94-4B0F-DBCC-40BDB02349F1">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>9647ACE2-C881-2909-1337-B616E701F524</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock_min" id="5D6865FC-31AB-DCC6-1814-F1BD9BA738B8">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>8BAFDDD2-EDE5-245E-283E-8BB8FBB5E8E2</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="articulo_codigo_articulo" id="2AF00377-5826-E7C4-F006-1D5CD6263898">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>97460353-346C-44A2-661E-75D771C5029F</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD135F6-8626-3A7B-E38F-9EF13B40350C" referredColumn="9CA7D4B9-9725-2589-1A9D-D960B1480752"/>
+</associations>
+</Column>
+<Column name="cant_existencia_art" id="4486D15C-C264-B2D1-C1FF-CE230C13CB7F">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>8D93F32A-FE62-BDB0-272B-34BA22590E61</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>8AD135F6-8626-3A7B-E38F-9EF13B40350C</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6529ADA4-6889-E252-3F78-063FF4B348C2" name="plantas_pro_codigo_planta_UN">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>77DE9697-DC12-FE39-1445-D8EACF3E47AE</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="609B98A0-A246-1D9C-48F0-AE9FD1865D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09618428-30AB-2624-0C23-4ED9084E4784" name="plantas_pro_articulo_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>80DD5211-0AB9-193D-6858-C2EF5DA7CBE3</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF00377-5826-E7C4-F006-1D5CD6263898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

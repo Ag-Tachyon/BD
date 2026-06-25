@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCE287B2-76A8-D4AF-70AA-F1218AA83820" name="plantas_pro">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:40:44 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>plantas</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_planta" id="FDC04D9E-ABF4-841D-BF7A-11441B9882B7">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:43:17 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_productos" id="B2DF1198-4A1F-D481-41E4-3C273C95A826">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:42:42 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant_de_articulos" id="9647ACE2-C881-2909-1337-B616E701F524">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:43:32 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_min" id="8BAFDDD2-EDE5-245E-283E-8BB8FBB5E8E2">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:43:55 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_articulo" id="97460353-346C-44A2-661E-75D771C5029F">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:47:25 UTC</createdTime>
+<generatorID>80DD5211-0AB9-193D-6858-C2EF5DA7CBE3</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<referedAttribute>4426E2D1-2390-7B31-153C-A62AFD361043</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77DE9697-DC12-FE39-1445-D8EACF3E47AE" name="Key_1">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:44:10 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<newElementsIDs>FDC04D9E-ABF4-841D-BF7A-11441B9882B7</newElementsIDs>
+<usedAttributes>
+<attributeRef>FDC04D9E-ABF4-841D-BF7A-11441B9882B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

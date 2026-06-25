@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contiene" directorySegmentName="seg_0" id="F53DD841-46D0-8E6D-059F-62D723A0FAF8">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:32:43 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<sourcePk>5385C4D6-B7D2-1318-714B-237629687ADD</sourcePk>
+<targetPk>E26DC2EA-627F-B50C-39C8-6BED6DD0B681</targetPk>
+<dominantRole>E16BB235-0D1A-8E3A-55CF-B386E02E270B</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E16BB235-0D1A-8E3A-55CF-B386E02E270B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFFAF44D-6565-8E3F-E23D-51E87E1CA05A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

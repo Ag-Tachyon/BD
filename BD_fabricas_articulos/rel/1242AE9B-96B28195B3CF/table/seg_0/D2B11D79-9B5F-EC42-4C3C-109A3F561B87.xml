@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2B11D79-9B5F-EC42-4C3C-109A3F561B87" name="pedido">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>E16BB235-0D1A-8E3A-55CF-B386E02E270B</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<abbreviation>pedido</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_pedido" id="A26CB5ED-0FE0-81BE-F7C3-51FC9C67D4E0">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>2F28D65A-0F20-318B-4EFE-3A9A5D3FFDB9</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pedido" id="5725E153-A7F5-C7EA-202D-2F978973E64C">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>9924ADBC-7436-6D29-0CE1-9ADB31ADD4CD</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_pendiente_entregar" id="4C31BC27-0100-463B-9B2D-80B001EF90B3">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>E0B723D1-2A51-067E-2529-60F6B600CDE0</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_codigo_cliente" id="77BFAC63-CD83-49D6-5708-12F30D0952F8">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>7D0CC64E-CB60-90FD-3592-9E5AF07A8F23</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4DFC6E9-A186-F01D-59DB-A42AF698E801" referredColumn="E2006403-9EF6-7FB2-0B21-31A663811F18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38489559-0BC4-4CFF-5F94-AE08CC25BAFB" name="pedido_codigo_pedido_UN">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>5385C4D6-B7D2-1318-714B-237629687ADD</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A26CB5ED-0FE0-81BE-F7C3-51FC9C67D4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CAB4A9E-1E29-BF34-4A38-FEB7B9912376" name="pedido_cliente_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>6C4FBE48-8A29-FBC1-6874-427020EBB674</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77BFAC63-CD83-49D6-5708-12F30D0952F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

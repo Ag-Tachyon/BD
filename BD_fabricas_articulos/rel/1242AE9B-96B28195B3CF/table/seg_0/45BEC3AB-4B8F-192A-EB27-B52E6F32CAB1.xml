@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45BEC3AB-4B8F-192A-EB27-B52E6F32CAB1" name="articulo">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>D5FC4208-9054-C61F-3AFF-BDEC9D33CF15</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_articulo" id="9CA7D4B9-9725-2589-1A9D-D960B1480752">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>4426E2D1-2390-7B31-153C-A62AFD361043</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_articulo" id="01FF498B-FF6E-9971-818B-58DA385246B4">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>787CF24D-D035-BD3C-9203-A9B573F23A2C</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_articulo" id="936B245F-B98A-68FE-BF92-0181B59E11ED">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>2E4C76F3-4153-EF09-B6DF-86AA73BA4204</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B708BD2-4695-FCF3-0784-6A1EF7A3199F" name="articulo_codigo_articulo_UN">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:49:09 UTC</createdTime>
+<generatorID>4025D252-D482-B550-E9C1-847733F030D2</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA7D4B9-9725-2589-1A9D-D960B1480752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

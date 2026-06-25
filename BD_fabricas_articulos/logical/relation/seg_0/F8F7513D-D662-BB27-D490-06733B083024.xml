@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vive" directorySegmentName="seg_0" id="F8F7513D-D662-BB27-D490-06733B083024">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:26:12 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<sourcePk>6E7B361D-14C3-DC1A-A25A-841A2A1E17FE</sourcePk>
+<dominantRole>F37D6384-ED70-EC42-6706-6DC610D43DD0</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F37D6384-ED70-EC42-6706-6DC610D43DD0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>63897839-9B34-A959-EE5A-4EA10C247482</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

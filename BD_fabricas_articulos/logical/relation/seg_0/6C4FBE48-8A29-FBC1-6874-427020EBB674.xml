@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pide" directorySegmentName="seg_0" id="6C4FBE48-8A29-FBC1-6874-427020EBB674">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:29:01 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<sourcePk>6E7B361D-14C3-DC1A-A25A-841A2A1E17FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F37D6384-ED70-EC42-6706-6DC610D43DD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E16BB235-0D1A-8E3A-55CF-B386E02E270B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

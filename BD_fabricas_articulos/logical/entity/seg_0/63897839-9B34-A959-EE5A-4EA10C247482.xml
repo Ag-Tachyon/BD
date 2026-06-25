@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63897839-9B34-A959-EE5A-4EA10C247482" name="direcciones">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:24:43 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>dir</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_postal" id="D0A4C388-7DE4-B737-5F8D-32F742AA8FE2">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:24:54 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="C2124260-6C09-C238-34DF-57B0F3320FF1">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:25:08 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_inmueble" id="BE02D53D-C041-D000-F0A2-0DFF60008FAB">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:25:20 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_cliente" id="C2DA0EDB-94A4-4BD5-0FA3-3BCF67B7FFE8">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:26:26 UTC</createdTime>
+<generatorID>F8F7513D-D662-BB27-D490-06733B083024</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<referedAttribute>FA566103-0BB0-0932-FE3C-E12F2A8A73F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_pedido" id="730BD407-7E98-A4C0-562F-00302E7EFD9F">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:35:58 UTC</createdTime>
+<generatorID>D73B8943-3AF4-5854-36A4-94A483087283</generatorID>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<referedAttribute>2F28D65A-0F20-318B-4EFE-3A9A5D3FFDB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B983F038-067B-F799-2DFA-D0100D54BB1C" name="Key_2">
+<createdBy>user</createdBy>
+<createdTime>2026-06-25 22:30:58 UTC</createdTime>
+<ownerDesignName>BD_fabricas_articulos</ownerDesignName>
+<engineerTo>
+<item key="1242AE9B-A29B-C9DB-240F-96B28195B3CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D0A4C388-7DE4-B737-5F8D-32F742AA8FE2,F8F7513D-D662-BB27-D490-06733B083024</newElementsIDs>
+<usedAttributes>
+<attributeRef>D0A4C388-7DE4-B737-5F8D-32F742AA8FE2</attributeRef>
+<attributeRef>C2DA0EDB-94A4-4BD5-0FA3-3BCF67B7FFE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
