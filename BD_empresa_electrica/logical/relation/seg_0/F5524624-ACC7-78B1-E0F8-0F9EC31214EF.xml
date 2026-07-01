@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ubicado" directorySegmentName="seg_0" id="F5524624-ACC7-78B1-E0F8-0F9EC31214EF">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:50:38 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<sourcePk>E8710E5A-28EC-48A0-5D19-DDC26C697C2A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B370935E-9232-B4B7-2A9C-8225F2A8F27A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4717AF1C-40DE-6FAE-29A9-A243ED5A1BC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

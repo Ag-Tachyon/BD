@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B370935E-9232-B4B7-2A9C-8225F2A8F27A" name="pais">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:48:45 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_pais" id="5833F97C-3DAD-07FA-E952-C3B97D7B2B16">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 16:03:49 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2C1E2577-EE52-1739-7BAC-42A67A379E23">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:48:53 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8710E5A-28EC-48A0-5D19-DDC26C697C2A" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:50:12 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<newElementsIDs>5833F97C-3DAD-07FA-E952-C3B97D7B2B16</newElementsIDs>
+<usedAttributes>
+<attributeRef>5833F97C-3DAD-07FA-E952-C3B97D7B2B16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

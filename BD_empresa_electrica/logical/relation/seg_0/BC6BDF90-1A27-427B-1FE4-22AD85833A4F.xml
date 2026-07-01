@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="utiliza" directorySegmentName="seg_0" id="BC6BDF90-1A27-427B-1FE4-22AD85833A4F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 16:04:19 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4D9B055C-3DC4-2D50-E93F-C1BD72173519</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>84C602B6-4970-7AC7-6A5B-707C13150D9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

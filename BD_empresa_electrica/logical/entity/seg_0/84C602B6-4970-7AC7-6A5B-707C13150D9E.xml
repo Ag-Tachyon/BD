@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84C602B6-4970-7AC7-6A5B-707C13150D9E" name="prestamo">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:21:43 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_credito" id="3DDEA162-2BD0-2DD9-D780-AE6D2795405A">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:22:13 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazo_y" id="8376AC80-8D04-AA93-C56A-F6C4BA90B859">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:22:36 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_prestamo" id="61416BEB-60A7-B392-0E4F-5F0C78338210">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:23:28 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_banco" id="8720EFD7-234D-E8A4-AB4D-B75164772210">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:51:47 UTC</createdTime>
+<generatorID>40DCDE9D-AAD9-14FE-A99B-9738DAA4CC7A</generatorID>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<referedAttribute>B520ABEC-22D6-FC7B-0021-4A3D8DE219D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_empresa" id="DEFBEBE6-E9FD-B930-98E1-F0327756A7E3">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:52:56 UTC</createdTime>
+<generatorID>1E262828-9D89-F23D-85B4-DC1F7F6FF6A0</generatorID>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<referedAttribute>86559166-B129-A701-60E7-B000E41AD1D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD80AA79-8689-B72D-BB39-076CBC013244" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:23:08 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<engineerTo>
+<item key="7357B542-0EE5-0052-9084-F569CA2376A9" value="true"/>
+</engineerTo>
+<newElementsIDs>3DDEA162-2BD0-2DD9-D780-AE6D2795405A</newElementsIDs>
+<usedAttributes>
+<attributeRef>3DDEA162-2BD0-2DD9-D780-AE6D2795405A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
