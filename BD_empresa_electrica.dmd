@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD_empresa_electrica" id="DBB58D70-0B25-AC2E-2A84-591F80450EA1" version="3.5">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-01 14:16:24 UTC</createdTime>
+<ownerDesignName>BD_empresa_electrica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DBB58D70-0B25-AC2E-2A84-591F80450EA1</designId>
+</OSDM_Design>
