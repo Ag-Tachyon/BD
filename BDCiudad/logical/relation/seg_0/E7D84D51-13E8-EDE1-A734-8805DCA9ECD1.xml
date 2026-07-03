@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estudia" directorySegmentName="seg_0" id="E7D84D51-13E8-EDE1-A734-8805DCA9ECD1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:57:34 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BB0214E-2605-4749-7D63-B9BFB99E6125</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8A4ACE6-82C1-6887-DCC5-9AD89CF529CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="jornada" id="E96BA746-89B8-2E85-2A25-34D82A77492F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:57:47 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="tipo" id="62EAF4C5-893F-94DD-6003-FD379A429A1C">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:57:56 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="curso" id="FE605660-A09D-178F-0F03-E2530464FD34">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:57:59 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

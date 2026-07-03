@@ -1,0 +1,530 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="0ACFEE71-C673-E1CB-B11A-54561EE643DC" name="ciudadano">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:40:08 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT Integrantes.*,
+  Instituciones.*,
+  Barrio.*,
+  EnfermedadesActuales.*,
+  RutasDetalladas.*,
+  HistorialEnfermedades.*
+FROM Integrantes,
+  Instituciones,
+  Barrio,
+  RutasDetalladas,
+  EnfermedadesActuales,
+  HistorialEnfermedades]]></userDefinedSQL>
+<layoutSQL><![CDATA[<?xml version = '1.0' encoding = 'UTF-8'?>
+<ActiveQueryBuilderLayout><SQL>Select Integrantes.*, Instituciones.*, Barrio.*, EnfermedadesActuales.*, RutasDetalladas.*, HistorialEnfermedades.* From Integrantes, Instituciones, Barrio, RutasDetalladas, EnfermedadesActuales, HistorialEnfermedades</SQL><SubQueries><SubQuery SQL="Select Integrantes.*, Instituciones.*, Barrio.*, EnfermedadesActuales.*, RutasDetalladas.*, HistorialEnfermedades.* From Integrantes, Instituciones, Barrio, RutasDetalladas, EnfermedadesActuales, HistorialEnfermedades"><UnionSubQuery><DataSource SQL="Integrantes" X="50" Y="20" Height="173" Width="140"/><DataSource SQL="Instituciones" X="240" Y="20" Height="137" Width="140"/><DataSource SQL="Barrio" X="430" Y="20" Height="137" Width="140"/><DataSource SQL="RutasDetalladas" X="240" Y="177" Height="83" Width="140"/><DataSource SQL="EnfermedadesActuales" X="430" Y="177" Height="83" Width="140"/><DataSource SQL="HistorialEnfermedades" X="50" Y="213" Height="137" Width="140"/></UnionSubQuery></SubQuery></SubQueries></ActiveQueryBuilderLayout>]]></layoutSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container containerID="FC436404-4146-6CC0-2029-155CB1A00708"/>
+<container containerID="CD0FBB54-85C2-F90F-D38F-86F2FA0A260A"/>
+<container containerID="824EF803-8904-398C-7532-5F0CE960FA82"/>
+<container containerID="3FB662F1-1091-4BB7-6702-170A16AA8CFC"/>
+<container containerID="A563A8E7-5BE8-2C9F-FBEF-201807985C39"/>
+<container containerID="AB88F2E8-9A41-7E6A-DD01-957B54D53971"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codIntegrante" id="281D6FF0-DC79-EF49-B117-6A0A9EEA2A9E">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>D812DC9B-EF81-F222-F754-8B3DFDDCE364</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="nombre" id="18174BD2-3C97-0309-43F3-99D044683219">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>68F0BC03-B986-3541-AD7E-B4C2219ED86A</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="lugarNacimiento" id="9E27C8E8-A08A-7DAB-EAA9-61A1AF635119">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>488D78F4-D516-B25E-3948-31A0AE60202C</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="fechaNacimiento" id="ECAF648D-910B-0F7A-47F2-87B77259D2A0">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>4025145B-90FA-F99E-CBA3-8617A1D452C3</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="documento" id="EFAD0967-D0F4-EEC4-981D-1E7980CA8493">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>38B4113F-D12B-6205-8074-CDB10F2384AD</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codFamilia" id="B2F892B2-36EC-ADD5-1225-EF5FE494B738">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B301C601-9DFF-1495-CA75-34F5523B8368</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="edad" id="AA529377-D2B5-FE28-E253-6620DB138463">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>3AAAA394-C7F7-A071-7DDF-48A09043B38C</referencedColumn>
+<table>FC436404-4146-6CC0-2029-155CB1A00708</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codInstitucion" id="F75C874F-9179-4038-44CB-F6F27515B25A">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>829B8633-6DE0-E6BA-1881-28F22B424F3E</referencedColumn>
+<table>CD0FBB54-85C2-F90F-D38F-86F2FA0A260A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="tipoActEco" id="E48EED0F-687D-FE55-CE25-56F8FBFE2F1F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B647827F-72E1-AD88-A495-5B70FECF66E7</referencedColumn>
+<table>CD0FBB54-85C2-F90F-D38F-86F2FA0A260A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codAlcaldia" id="47F37B14-78A8-2F08-4412-8EC1070722C0">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>788D60B6-E07F-008E-9C2D-CD6BDB9F8DEA</referencedColumn>
+<table>CD0FBB54-85C2-F90F-D38F-86F2FA0A260A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="direccion" id="ADB72708-01F9-7F18-A06E-8540BA9E3A0D">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>77684D9E-94CC-6C6F-CBE3-C07E7FF059A9</referencedColumn>
+<table>CD0FBB54-85C2-F90F-D38F-86F2FA0A260A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="nombre" id="9EE8097B-6472-C2FF-8F05-E40466511A5A">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>1EEF9408-3060-0F9B-C171-8B7702341D1C</referencedColumn>
+<table>CD0FBB54-85C2-F90F-D38F-86F2FA0A260A</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codBarrio" id="2F201168-04C7-0419-819F-B26437E6DD95">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>54213343-09AB-5C11-2A28-C5789CD1548F</referencedColumn>
+<table>824EF803-8904-398C-7532-5F0CE960FA82</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="nombreBarrio" id="DD2CB7B1-B2BB-5D42-D65B-11528E75A893">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>200D2CDB-D3D2-E9DA-E523-935DDE9FB9F4</referencedColumn>
+<table>824EF803-8904-398C-7532-5F0CE960FA82</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="areaBarrio" id="DC27BFFF-038F-02F3-987C-F68F36E970D9">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8B02519C-879D-CDBD-BA08-561CEE0A1E63</referencedColumn>
+<table>824EF803-8904-398C-7532-5F0CE960FA82</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="tipoBarrio" id="04C34FE9-4B1E-DD16-38D8-555AEF61B020">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>8FEA6C79-153E-F4B5-B421-8A380EFE277F</referencedColumn>
+<table>824EF803-8904-398C-7532-5F0CE960FA82</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="estrato" id="96BE2ED9-10CD-F870-8C08-792E3158F7C9">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>FBFB7BD5-8147-DF19-C452-9F7277583753</referencedColumn>
+<table>824EF803-8904-398C-7532-5F0CE960FA82</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codEnfermedadesAct" id="AFFFDF45-A4B2-84DD-F856-C7C449AACFBD">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>015FFBB3-A5F5-5735-CDE5-D2E4EFACB409</referencedColumn>
+<table>3FB662F1-1091-4BB7-6702-170A16AA8CFC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="nombreEnfermedadAct" id="F42CBD02-D8C7-646A-8330-188877EFB6CC">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>0C12937E-8191-6B8A-D08F-812D79D67D6F</referencedColumn>
+<table>3FB662F1-1091-4BB7-6702-170A16AA8CFC</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codRutas" id="2CB0B6EE-4001-0863-F3D8-B6273571F1F7">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>B271FAEA-34B3-4582-2D4E-6D7D328B65E2</referencedColumn>
+<table>A563A8E7-5BE8-2C9F-FBEF-201807985C39</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="informacion" id="DB6748B3-4F8C-DAE8-9A37-7336737559D7">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>F52E4874-78BA-3757-BEAE-5B457B349185</referencedColumn>
+<table>A563A8E7-5BE8-2C9F-FBEF-201807985C39</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codEnfermedad" id="A2B2D17F-8C1C-CEDD-E766-2A0DE96449D3">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>65BD702E-4B33-A718-9C6B-7C918CA4CCB6</referencedColumn>
+<table>AB88F2E8-9A41-7E6A-DD01-957B54D53971</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="nombreEnfermedad" id="E9EE5FD5-BE09-A944-57C9-4BC3D19D318A">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>2AD71B70-CD4F-446F-ABFE-157A1BAB1370</referencedColumn>
+<table>AB88F2E8-9A41-7E6A-DD01-957B54D53971</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="tratamiento" id="264F7828-5A9B-1056-04F4-EF00192139DA">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>9C261DC8-4BF4-326D-58E2-A7E07F59DF38</referencedColumn>
+<table>AB88F2E8-9A41-7E6A-DD01-957B54D53971</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codIntegrante" id="BA33EA62-00C6-DA04-6C5D-D66B3ED9E99D">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>2B2C7025-152B-A063-1593-5AAD27BD6BA4</referencedColumn>
+<table>AB88F2E8-9A41-7E6A-DD01-957B54D53971</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="codFamilia" id="9DB3BC21-5487-B13E-3064-3294F22EF9EB">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:42:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<reference>false</reference>
+<referencedColumn>28B405EA-BEE8-4A93-C800-1B3FE394EAA8</referencedColumn>
+<table>AB88F2E8-9A41-7E6A-DD01-957B54D53971</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FC436404-4146-6CC0-2029-155CB1A00708">
+<container>true</container>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CD0FBB54-85C2-F90F-D38F-86F2FA0A260A">
+<container>true</container>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="824EF803-8904-398C-7532-5F0CE960FA82">
+<container>true</container>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3FB662F1-1091-4BB7-6702-170A16AA8CFC">
+<container>true</container>
+<tableName>EnfermedadesActuales</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A563A8E7-5BE8-2C9F-FBEF-201807985C39">
+<container>true</container>
+<tableName>RutasDetalladas</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AB88F2E8-9A41-7E6A-DD01-957B54D53971">
+<container>true</container>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D812DC9B-EF81-F222-F754-8B3DFDDCE364">
+<columnName>codIntegrante</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="68F0BC03-B986-3541-AD7E-B4C2219ED86A">
+<columnName>nombre</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="488D78F4-D516-B25E-3948-31A0AE60202C">
+<columnName>lugarNacimiento</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4025145B-90FA-F99E-CBA3-8617A1D452C3">
+<columnName>fechaNacimiento</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="38B4113F-D12B-6205-8074-CDB10F2384AD">
+<columnName>documento</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B301C601-9DFF-1495-CA75-34F5523B8368">
+<columnName>codFamilia</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3AAAA394-C7F7-A071-7DDF-48A09043B38C">
+<columnName>edad</columnName>
+<tableName>Integrantes</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="829B8633-6DE0-E6BA-1881-28F22B424F3E">
+<columnName>codInstitucion</columnName>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B647827F-72E1-AD88-A495-5B70FECF66E7">
+<columnName>tipoActEco</columnName>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="788D60B6-E07F-008E-9C2D-CD6BDB9F8DEA">
+<columnName>codAlcaldia</columnName>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="77684D9E-94CC-6C6F-CBE3-C07E7FF059A9">
+<columnName>direccion</columnName>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1EEF9408-3060-0F9B-C171-8B7702341D1C">
+<columnName>nombre</columnName>
+<tableName>Instituciones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="54213343-09AB-5C11-2A28-C5789CD1548F">
+<columnName>codBarrio</columnName>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="200D2CDB-D3D2-E9DA-E523-935DDE9FB9F4">
+<columnName>nombreBarrio</columnName>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8B02519C-879D-CDBD-BA08-561CEE0A1E63">
+<columnName>areaBarrio</columnName>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8FEA6C79-153E-F4B5-B421-8A380EFE277F">
+<columnName>tipoBarrio</columnName>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FBFB7BD5-8147-DF19-C452-9F7277583753">
+<columnName>estrato</columnName>
+<tableName>Barrio</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="015FFBB3-A5F5-5735-CDE5-D2E4EFACB409">
+<columnName>codEnfermedadesAct</columnName>
+<tableName>EnfermedadesActuales</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0C12937E-8191-6B8A-D08F-812D79D67D6F">
+<columnName>nombreEnfermedadAct</columnName>
+<tableName>EnfermedadesActuales</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B271FAEA-34B3-4582-2D4E-6D7D328B65E2">
+<columnName>codRutas</columnName>
+<tableName>RutasDetalladas</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F52E4874-78BA-3757-BEAE-5B457B349185">
+<columnName>informacion</columnName>
+<tableName>RutasDetalladas</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65BD702E-4B33-A718-9C6B-7C918CA4CCB6">
+<columnName>codEnfermedad</columnName>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2AD71B70-CD4F-446F-ABFE-157A1BAB1370">
+<columnName>nombreEnfermedad</columnName>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9C261DC8-4BF4-326D-58E2-A7E07F59DF38">
+<columnName>tratamiento</columnName>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2B2C7025-152B-A063-1593-5AAD27BD6BA4">
+<columnName>codIntegrante</columnName>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="28B405EA-BEE8-4A93-C800-1B3FE394EAA8">
+<columnName>codFamilia</columnName>
+<tableName>HistorialEnfermedades</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

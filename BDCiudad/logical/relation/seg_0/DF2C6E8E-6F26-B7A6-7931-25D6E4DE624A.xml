@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="viven" directorySegmentName="seg_0" id="DF2C6E8E-6F26-B7A6-7931-25D6E4DE624A">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:00:32 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<sourcePk>72AB98B4-A35C-9B79-1B32-B01E3631E53A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>824EF803-8904-398C-7532-5F0CE960FA82</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF3E0978-26FD-A01A-7AD9-36C2A10C6555</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A563A8E7-5BE8-2C9F-FBEF-201807985C39" name="RutasDetalladas">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:51:57 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codRutas" id="B271FAEA-34B3-4582-2D4E-6D7D328B65E2">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:52:13 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="informacion" id="F52E4874-78BA-3757-BEAE-5B457B349185">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:52:22 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BD7A7A2-CF86-7672-59FC-B2FB5FB282CB" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:02:14 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<newElementsIDs>B271FAEA-34B3-4582-2D4E-6D7D328B65E2</newElementsIDs>
+<usedAttributes>
+<attributeRef>B271FAEA-34B3-4582-2D4E-6D7D328B65E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

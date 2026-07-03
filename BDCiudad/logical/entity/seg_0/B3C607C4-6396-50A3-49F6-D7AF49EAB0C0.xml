@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3C607C4-6396-50A3-49F6-D7AF49EAB0C0" name="EmpresaIndustrial">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:14:34 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoEmpresaInd" id="83D69153-38EF-2F39-26AB-00D06D25FBA0">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:16:24 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3B4328BF-63C1-24D2-CC51-FA31BDF8BD77">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:16:46 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="C7CB69E6-D9C5-54A4-1317-079B4A9169B1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:16:49 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="881860E6-9EBD-D910-4AC5-F5EBEE5329BD" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:16:55 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<newElementsIDs>83D69153-38EF-2F39-26AB-00D06D25FBA0</newElementsIDs>
+<usedAttributes>
+<attributeRef>83D69153-38EF-2F39-26AB-00D06D25FBA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

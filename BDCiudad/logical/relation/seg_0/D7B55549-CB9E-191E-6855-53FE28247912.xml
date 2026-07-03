@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="se_ubica" directorySegmentName="seg_0" id="D7B55549-CB9E-191E-6855-53FE28247912">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:15:28 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48F17A42-2D30-6390-3D66-CE8D202C54CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3C607C4-6396-50A3-49F6-D7AF49EAB0C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

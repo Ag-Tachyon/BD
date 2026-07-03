@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FB662F1-1091-4BB7-6702-170A16AA8CFC" name="EnfermedadesActuales">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:03:45 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codEnfermedadesAct" id="015FFBB3-A5F5-5735-CDE5-D2E4EFACB409">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:03:54 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreEnfermedadAct" id="0C12937E-8191-6B8A-D08F-812D79D67D6F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:04:09 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45C80793-2297-38F2-1C9F-104EB12D6485" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 16:02:03 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<newElementsIDs>015FFBB3-A5F5-5735-CDE5-D2E4EFACB409</newElementsIDs>
+<usedAttributes>
+<attributeRef>015FFBB3-A5F5-5735-CDE5-D2E4EFACB409</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

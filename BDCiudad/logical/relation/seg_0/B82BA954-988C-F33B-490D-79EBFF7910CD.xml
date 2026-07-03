@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estaConformada" directorySegmentName="seg_0" id="B82BA954-988C-F33B-490D-79EBFF7910CD">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:58:32 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<sourcePk>AEC867AE-2722-96AA-5895-9C89879AA297</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF3E0978-26FD-A01A-7AD9-36C2A10C6555</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC436404-4146-6CC0-2029-155CB1A00708</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

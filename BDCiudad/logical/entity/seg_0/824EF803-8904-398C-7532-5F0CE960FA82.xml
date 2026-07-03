@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="824EF803-8904-398C-7532-5F0CE960FA82" name="Barrio">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:38:43 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codBarrio" id="54213343-09AB-5C11-2A28-C5789CD1548F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:39:48 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreBarrio" id="200D2CDB-D3D2-E9DA-E523-935DDE9FB9F4">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:40:01 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="areaBarrio" id="8B02519C-879D-CDBD-BA08-561CEE0A1E63">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:40:10 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoBarrio" id="8FEA6C79-153E-F4B5-B421-8A380EFE277F">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:40:19 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estrato" id="FBFB7BD5-8147-DF19-C452-9F7277583753">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:43:46 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72AB98B4-A35C-9B79-1B32-B01E3631E53A" name="Key_1">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 14:44:03 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<newElementsIDs>54213343-09AB-5C11-2A28-C5789CD1548F</newElementsIDs>
+<usedAttributes>
+<attributeRef>54213343-09AB-5C11-2A28-C5789CD1548F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

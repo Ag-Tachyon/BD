@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trabaja" directorySegmentName="seg_0" id="B7C84E39-7954-F9A4-BF69-C9AE48E029F5">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:55:36 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<sourcePk>21310EB4-0601-7A30-231F-7D4D3A8BB085</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D5234A3-B463-B20B-D63A-CED8F26E3AE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C65B6D4-0EB7-0D12-4A87-C68015E981B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cargo" id="4D388C80-50E8-16AA-62B7-8F4A4C6460C3">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:56:01 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="jornada" id="F022D4C9-8C7E-4F1E-4EBD-B0BA6580B0FF">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:56:11 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="sueldo" id="873ABB69-BA00-53E6-B526-90995AE6128E">
+<createdBy>Estudiantes</createdBy>
+<createdTime>2026-07-03 15:56:16 UTC</createdTime>
+<ownerDesignName>BDCiudad</ownerDesignName>
+<engineerTo>
+<item key="E41788F6-A5BB-32CB-D090-A6F133630CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
